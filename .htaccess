@@ -1,3 +1,3 @@
 # .PHP remove
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+RewriteEngine On
+RewriteRule ^(api)/(.+) $1.php/$2 [L]
