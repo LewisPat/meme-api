@@ -1,2 +1,0 @@
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule (.+)\.(js)$ $1.$2.php [L]
